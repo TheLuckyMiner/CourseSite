@@ -124,8 +124,12 @@ body{
     border: 1px solid #EDEDED;
 }
 
-.learn-img{
+.learn-img-link{
     width: 50%;
+}
+
+.learn-img{
+    width: 100%;
     margin-bottom: 122px;
 }
 

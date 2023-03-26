@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body{
+    font-family: "Inter", sans-serif;
+}
+
+.header{
+    margin: 0;
+}
+
+.start__card{
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+
+.start-title{
+    margin-bottom: 20px;
+}
+.buy{
+    background:#E48D8B;
+}
+
+.buy .container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.buy-course-name{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+textarea{
+    font-size: 25px;
+}
+
+.buy-form-text{
+    font-size: 16px;
+}
+
+input{
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin: 8px 0;
+}
+
+.buy-form-button{
+    text-align: center;
+}
+
+.buy-btn{
+    margin: 10px 0 70px;
+    padding: 8px 15px;
+    border-radius: 10px;
+    color: #d35b59;
+    font-size: 20px;
+}
+
+@media (max-width: 700px){
+    .header-text{
+        display: none;
+    }
+    .header-btn{
+        margin-right: 10px;
+    }
+    .header-img{
+        margin-left: 10px;
+    }
+}
+
+@media(max-width: 950px){
+    .footer-text{
+        font-size: 16px;
+    }
+    .footer__link{
+        font-size: 12px;
+    }
+    .footer__nav + .footer__nav{
+        margin-left: 25px;
+    }
+}
+
+@media(max-width: 750px){
+    .footer-right{
+        display: none;
+    }
+    .footer-left{
+        margin: 30px 15px 20px;
+    }
+
+}
+
+@media(max-width: 500px){
+    .start__card-title{
+        font-size: 25px;
+    }
+
+    .start__card{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .start__card-description{
+        margin: 0 20px 20px;
+    }
+
+    .start-title{
+        font-size: 25px;
+        padding-top: 80px;
+    }
+
+    input{
+        font-size: 20px;
+    }
+}
+
+@media(max-width:400px){
+    .start-btn{
+        margin-bottom: 25px;
+    }
+
+    .start-list{
+        font-size: 14px;
+    }
+    .start__card-description{
+        font-size: 16px;
+    }
+    .start-title{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    input{
+        font-size: 18px;
+    }
+    .buy-form-button{
+        font-size: 18px;
+    }
+}
