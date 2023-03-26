@@ -558,3 +558,259 @@ body{
 .footer__link:hover{
     color:#7e7e7e;
 }
+
+@media(max-width:1300px){
+    .container{
+        margin: 0 10px;
+    }
+}
+
+@media(max-width: 1100px){
+    .fact{
+        max-width: 280px;
+        margin-top: 80px;
+    }
+    .teacher__info-title{
+        font-size: 25px;
+    }
+    .teacher__info-text{
+        font-size: 16px;
+    }
+    .teacher-img{
+        width: 50%;
+    }
+    .teacher-img + .teacher__info{
+        margin-left: 15px;
+    }
+    .teacher__info + .teacher-img{
+        margin-left: 15px;
+    }
+    .skill{
+        width: 300px;
+        margin: 0 15px 65px;
+    }
+    .skills-list{
+        justify-content: center;
+    }
+    .skill-group{
+        max-width: 800px;
+        margin: 0 10px;
+        display: flex;
+    }
+    .skills-title{
+        text-align: center;
+    }
+}
+
+@media(max-width:1000px){
+    .learn__inner-title{
+        font-size: 35px;
+        margin-top: 0;
+    }
+    .learn__inner-text{
+        font-size: 17px;
+    }
+    .learn-img-link{
+        margin: auto 0;
+        width: 100%;
+    }
+    .fact-description{
+        font-size: 17px;
+        margin-bottom: 70px;
+    }
+    .fact-title{
+        font-size: 20px;
+    }
+    .teacher{
+        margin-bottom: 50px;
+    }
+}
+
+@media(max-width: 900px){
+    .learn__inner{
+        max-width: 350px;
+        margin-right: 20px;
+    }
+    .fact + .fact{
+        margin-left: 20px;
+    }
+    .include__fact-title{
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    .include__fact{
+        margin-bottom: 20px;
+    }
+    .include__top{
+        margin-bottom: 0;
+    }
+}
+
+@media(max-width: 950px){
+    .footer-text{
+        font-size: 16px;
+    }
+    .footer__link{
+        font-size: 12px;
+    }
+    .footer__nav + .footer__nav{
+        margin-left: 25px;
+    }
+}
+
+@media(max-width: 750px){
+    .footer-right{
+        display: none;
+    }
+    .footer-left{
+        margin: 30px 15px 20px;
+    }
+    .facts .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .fact{
+        margin: 40px 80px 0 80px;
+    }
+    .fact:nth-child(1){
+        margin-top: 80px;
+        margin-left: 20px;
+    }
+
+    .fact-description{
+        margin-bottom: 15px;
+    }
+    .teacher{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    .teacher:nth-child(2){
+        flex-direction: column-reverse;
+    }
+    .teacher-img{
+        margin-bottom: 30px;
+    }
+
+
+}
+
+@media (max-width: 700px){
+    .header-text{
+        display: none;
+    }
+    .header-btn{
+        margin-right: 10px;
+    }
+    .header-img{
+        margin-left: 10px;
+    }
+    .learn .container{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .learn-img-link{
+        width: 80%;
+    }
+    .learn-img{
+        margin-bottom: 30px;
+    }
+    .learn__inner{
+        max-width: 400px;
+        margin: 0 10px;
+    }
+    .fact{
+        margin: 40px 30px 0 30px;
+    }
+    .list{
+        margin-bottom: 70px;
+    }
+    .skills-title{
+        font-size: 25px;
+    }
+    .skill-text{
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 650px){
+    .include__inner-title{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .include__inner{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .include__fact{
+        margin: 0 25px 20px;
+    }
+    .include{
+        margin-bottom: 50px;
+    }
+    .list__inner-item{
+        width: 300px;
+    }
+    .list__inner-text{
+        font-size: 16px;
+        margin: 10px 5px 8px 10px;
+    }
+    .list__inner-arrow{
+        margin-right: 8px;
+    }
+    .skill-group{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .skill{
+        margin-bottom: 35px;
+    }
+}
+
+@media(max-width: 500px){
+    .header{
+        margin-bottom: 30px;
+    }
+    .learn__inner-title{
+        font-size: 25px;
+    }
+    .learn__inner-text{
+        font-size:15px;
+    }
+    .fact-description{
+        font-size: 15px;
+    }
+    .teacher__info-text{
+        font-size: 14px;
+    }
+    .include__fact-title{
+        margin-bottom: 0;
+    }
+    .list-title{
+        font-size: 30px;
+        margin-bottom: 35px;
+    }
+    .list__inner-item{
+        width: 280px;
+    }
+}
+
+@media(max-width:400px){
+
+    .learn__inner-btn,
+    .learn__inner-watch{
+        display: block;
+        margin: 0 20px 15px 20px;
+    }
+    .include__fact{
+        margin: 0 55px 30px;
+    }
+    .skills-title{
+        margin-right: 20px;
+    }
+
+}
