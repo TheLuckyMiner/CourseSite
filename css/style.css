@@ -219,6 +219,7 @@ body{
 
 .list{
     margin-bottom: 180px;
+    margin-top: 40px;
 }
 
 .list-title{
@@ -245,6 +246,21 @@ body{
 
 .list__inner-item:hover{
     cursor: pointer;
+}
+
+.list__inner-hint{
+    width: 500px;
+    margin: 5px 0 20px;
+    background: #fff3f3aa;
+    display: none;
+}
+
+.hint__show{
+    display: block;
+}
+
+.hint__show-arrow{
+    rotate: 180deg;
 }
 
 .list__inner-text{
@@ -339,6 +355,25 @@ body{
     display: flex;
     justify-content: center;
     margin-bottom: 129px;
+}
+
+.question-answer{
+    margin-bottom: 20px;
+    font-size: 16px;
+    background: #fff3f3aa;
+    border-bottom: 1px solid #DBDBDB;
+}
+
+.answer{
+    display: none;
+}
+
+.answer__show{
+    display: block;
+}
+
+.answer__show-arrow{
+    rotate: 180deg;
 }
 
 .start{
@@ -651,6 +686,10 @@ body{
     .start-title{
         padding-top: 70px;
     }
+    .question,
+    .question-answer{
+        width: 500px;
+    }
 }
 
 @media(max-width: 900px){
@@ -839,7 +878,8 @@ body{
     .include{
         margin-bottom: 50px;
     }
-    .list__inner-item{
+    .list__inner-item,
+    .list__inner-hint{
         width: 300px;
     }
     .list__inner-text{
@@ -857,14 +897,16 @@ body{
     .skill{
         margin-bottom: 35px;
     }
-    .question-title{
+    .question-title,
+    .question-answer{
         font-size: 16px;
         margin-left: 5px;
     }
     .question-arrow{
         margin-right: 5px;
     }
-    .question{
+    .question,
+    .question-answer{
         width: 400px;
     }
     .question__inner{
@@ -907,13 +949,15 @@ body{
         font-size: 30px;
         margin-bottom: 35px;
     }
-    .list__inner-item{
+    .list__inner-item,
+    .list__inner-hint{
         width: 280px;
     }
     .review__text{
         font-size: 15px;
     }
-    .question{
+    .question,
+    .question-answer{
         width: 300px;
     }
     .start__card-description{
