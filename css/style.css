@@ -624,6 +624,33 @@ body{
     .teacher{
         margin-bottom: 50px;
     }
+    .student{
+        max-width: 300px;
+    }
+    .student-comment{
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 950px){
+    .footer-text{
+        font-size: 16px;
+    }
+    .footer__link{
+        font-size: 12px;
+    }
+    .footer__nav + .footer__nav{
+        margin-left: 25px;
+    }
+    .question{
+        width: 500px;
+    }
+    .start__card{
+        max-width: 350px;
+    }
+    .start-title{
+        padding-top: 70px;
+    }
 }
 
 @media(max-width: 900px){
@@ -644,17 +671,24 @@ body{
     .include__top{
         margin-bottom: 0;
     }
-}
-
-@media(max-width: 950px){
-    .footer-text{
-        font-size: 16px;
+    .students__inner{
+        display: flex;
+        flex-wrap: wrap;
     }
-    .footer__link{
-        font-size: 12px;
+    .student-column{
+        display: flex;
+        flex-wrap: wrap;
     }
-    .footer__nav + .footer__nav{
-        margin-left: 25px;
+    .student{
+        height: 400px;
+        margin-bottom: 20px;
+    }
+    .student + .student{
+        margin-top: 0;
+        margin-left: 20px;
+    }
+    .student-column + .student-column{
+        margin-left: 0;
     }
 }
 
@@ -693,7 +727,34 @@ body{
     .teacher-img{
         margin-bottom: 30px;
     }
-
+    .review__sign{
+        margin-top:40px;
+    }
+    .review__text{
+        font-size: 18px;
+    }
+    .review__name{
+        font-size: 16px;
+        margin-bottom: 40px;
+        padding-bottom: 0;
+    }
+    .start__card-title{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .start__new-price{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .start__old-price{
+        font-size: 16px;
+    }
+    .start__new-price{
+        margin-left: 10px;
+    }
+    .start-plus{
+        font-size: 15px;
+    }
 
 }
 
@@ -733,6 +794,33 @@ body{
     .skill-text{
         font-size: 15px;
     }
+    .start__card{
+        margin-bottom: 40px;
+    }
+    .start__inner{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .start__card + .start__card{
+        margin-left: 0;
+    }
+    .student{
+        max-width: 270px;
+    }
+    .student-comment{
+        font-size: 14px;
+    }
+    .student-name{
+        font-size: 16px;
+    }
+    .student-rank{
+        margin-top: 15px;
+    }
+    .students__title{
+        font-size: 25px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        }
 }
 
 @media(max-width: 650px){
@@ -769,6 +857,31 @@ body{
     .skill{
         margin-bottom: 35px;
     }
+    .question-title{
+        font-size: 16px;
+        margin-left: 5px;
+    }
+    .question-arrow{
+        margin-right: 5px;
+    }
+    .question{
+        width: 400px;
+    }
+    .question__inner{
+        margin-bottom: 50px;
+    }
+    .students__inner{
+        margin-bottom: 50px;
+    }
+}
+
+@media(max-width: 600px){
+    .student-column{
+        justify-content: center;
+    }
+    .student + .student{
+        margin-left: 0;
+    }
 }
 
 @media(max-width: 500px){
@@ -797,6 +910,18 @@ body{
     .list__inner-item{
         width: 280px;
     }
+    .review__text{
+        font-size: 15px;
+    }
+    .question{
+        width: 300px;
+    }
+    .start__card-description{
+        margin: 0 20px 13px;
+    }
+    .start__bottom-img{
+        display: none;
+    }
 }
 
 @media(max-width:400px){
@@ -812,5 +937,16 @@ body{
     .skills-title{
         margin-right: 20px;
     }
+    .question-top-img{
+        display: none;
+    }
+    .questions-title{
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+    .start__card{
+        max-width: 290px;
+    }
+    
 
 }
