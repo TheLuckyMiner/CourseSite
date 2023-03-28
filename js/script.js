@@ -7,10 +7,10 @@ function displayHint(clicked_id){
     let hint_id = '#hint' + id;
     let arrow_id = '#arrow' +  id;
     if ($(hint_id).hasClass('hint__show')){
-        $(hint_id).fadeOut(400);
+        $(hint_id).fadeOut(500);
     }
     else {
-        $(hint_id).fadeIn(700);
+        $(hint_id).fadeIn(1000);
     }
     document.querySelector(arrow_id).classList.toggle('hint__show-arrow');
     document.querySelector(hint_id).classList.toggle('hint__show');
