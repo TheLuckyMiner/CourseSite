@@ -271,6 +271,7 @@ body{
 
 .list__inner-arrow{
     margin-right: 25px;
+    max-width: 16px;
 }
 
 .skills-title{
@@ -362,6 +363,7 @@ body{
     font-size: 16px;
     background: #fff3f3aa;
     border-bottom: 1px solid #DBDBDB;
+    width: 800px;
 }
 
 .answer{
@@ -473,6 +475,7 @@ body{
 .start-mark{
     margin-right: 8px;
 }
+
 
 .students__title{
     font-weight: 700;
@@ -904,6 +907,7 @@ body{
     }
     .question-arrow{
         margin-right: 5px;
+        max-width: 16px;
     }
     .question,
     .question-answer{
@@ -991,6 +995,8 @@ body{
     .start__card{
         max-width: 290px;
     }
-    
-
+    .question-answer{
+        max-width: 280px;
+        margin-left: 3px;
+    }
 }
