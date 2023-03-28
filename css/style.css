@@ -722,12 +722,12 @@ body{
         flex-wrap: wrap;
     }
     .student{
-        height: 400px;
+        min-height: 400px;
         margin-bottom: 20px;
     }
     .student + .student{
         margin-top: 0;
-        margin-left: 20px;
+        margin-left: 15px;
     }
     .student-column + .student-column{
         margin-left: 0;
@@ -962,7 +962,7 @@ body{
     }
     .question,
     .question-answer{
-        width: 300px;
+        width: 290px;
     }
     .start__card-description{
         margin: 0 20px 13px;
