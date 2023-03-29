@@ -769,6 +769,9 @@ body{
     .teacher-img{
         margin-bottom: 30px;
     }
+    .teacher__info + .teacher-img {
+        margin-left: 0;
+    }
     .review__sign{
         margin-top:40px;
     }
